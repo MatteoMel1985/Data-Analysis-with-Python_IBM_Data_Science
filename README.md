@@ -1,3 +1,5 @@
+![Skills_Network](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMSkillsNetwork-PY0221EN-Coursera/images/image.png)  
+
 <h1 align="center">IBM Data Analysis with Python</h1>
 
 This repository contains a structured collection of Jupyter Notebooks developed while working through the IBM **Data Analysis with Python** learning path. The notebooks demonstrate the complete analytical workflow: importing datasets, cleaning and transforming raw data, exploring relationships between variables, building predictive regression models, and evaluating model performance.
@@ -291,5 +293,4 @@ and selects the value that produces the best validation performance. When combin
 * scikit-learn
 
 # Author
-
-# ***Matteo Meloni***
+# ***[Matteo Meloni](https://www.linkedin.com/in/matteo-meloni-40a357154/)***
