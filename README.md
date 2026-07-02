@@ -4,19 +4,19 @@
 
 This repository contains a structured collection of Jupyter Notebooks developed while working through the IBM **Data Analysis with Python** learning path. The notebooks demonstrate the complete analytical workflow: importing datasets, cleaning and transforming raw data, exploring relationships between variables, building predictive regression models, and evaluating model performance.
 
-The main notebook, **Exploratory Data Analysis – Cars**, is placed in the root folder as the central project file. The remaining notebooks are organised inside the `Jupyter Notebooks` folder as supporting labs and practice exercises.
+The main notebook, **House Sales in King County, USA**, is placed in the root folder as the central project file. The remaining notebooks are organised inside the `Jupyter Notebooks` folder as supporting labs, review notebooks, and practice exercises.
 
 <h1 align="center"><i>Repository Structure</i></h1>
 
 ```text
 .
-├── Exploratory_data_analysis_cars.ipynb
+├── House_Sales_in_King_Count_USA.ipynb
 ├── README.md
 └── Jupyter Notebooks/
     ├── DA0101EN-Review-Introduction.ipynb
     ├── DA0101EN-2-Review-Data-Wrangling.ipynb
     ├── DA0101EN-4-Review-Model-Development.ipynb
-    ├── House_Sales_in_King_Count_USA(1).ipynb
+    ├── Exploratory_data_analysis_cars.ipynb
     ├── Model_Evaluation_and_Refinement_cars.ipynb
     ├── Practice_data_loading.ipynb
     ├── practice_data_wrangling.ipynb
@@ -27,9 +27,9 @@ The main notebook, **Exploratory Data Analysis – Cars**, is placed in the root
 
 <h1 align="center"><i>Notebooks Overview</i></h1>
 
-* [**Exploratory Data Analysis – Cars**](Exploratory_data_analysis_cars.ipynb)
+* [**House Sales in King County, USA**](House_Sales_in_King_Count_USA.ipynb)
 
-This is the main notebook of the repository. It analyses an automobile dataset to identify the variables that most strongly influence car prices. The notebook applies descriptive statistics, visual exploration, grouping, pivot tables, correlation analysis, Pearson correlation tests, and ANOVA to study relationships between car features and price.
+This is the main notebook of the repository. It applies the full data analysis workflow to housing prices in King County, USA, including data loading, data wrangling, exploratory analysis, correlation study, feature-based price prediction, linear regression, multiple regression, polynomial transformation, Ridge Regression, pipelines, train-test splitting, and cross-validation.
 
 * [**Introduction to Data Analysis with Python**](Jupyter%20Notebooks/DA0101EN-Review-Introduction.ipynb)
 
@@ -39,6 +39,10 @@ This notebook introduces the first stage of the data analysis workflow: importin
 
 This notebook focuses on transforming raw automobile data into a clean and analysis-ready format. It includes identifying missing values, replacing missing numerical values with the mean, handling categorical missing values, correcting data types, standardising units, normalising numerical variables, binning continuous data, and creating indicator variables.
 
+* [**Exploratory Data Analysis – Cars**](Jupyter%20Notebooks/Exploratory_data_analysis_cars.ipynb)
+
+This notebook analyses an automobile dataset to identify the variables that most strongly influence car prices. It applies descriptive statistics, visual exploration, grouping, pivot tables, correlation analysis, Pearson correlation tests, and ANOVA to study relationships between car features and price.
+
 * [**Model Development – Cars Dataset**](Jupyter%20Notebooks/DA0101EN-4-Review-Model-Development.ipynb)
 
 This notebook introduces predictive modelling for car prices. It develops and compares simple linear regression, multiple linear regression, polynomial regression, and pipeline-based models. It also uses visual evaluation methods such as regression plots, residual plots, and distribution plots, together with numerical metrics such as R-squared and mean squared error.
@@ -46,10 +50,6 @@ This notebook introduces predictive modelling for car prices. It develops and co
 * [**Model Evaluation and Refinement – Cars Dataset**](Jupyter%20Notebooks/Model_Evaluation_and_Refinement_cars.ipynb)
 
 This notebook extends the modelling workflow by focusing on model validation and refinement. It covers training and testing splits, cross-validation, overfitting and underfitting, polynomial model selection, Ridge Regression, and Grid Search for hyperparameter tuning.
-
-* [**House Sales in King County, USA**](Jupyter%20Notebooks/House_Sales_in_King_Count_USA(1).ipynb)
-
-This final project applies the full data analysis workflow to housing prices in King County, USA. It includes data loading, data wrangling, exploratory analysis, correlation study, feature-based price prediction, linear regression, multiple regression, polynomial transformation, Ridge Regression, pipelines, train-test splitting, and cross-validation.
 
 * [**Practice Lab – Data Loading: Laptops Dataset**](Jupyter%20Notebooks/Practice_data_loading.ipynb)
 
