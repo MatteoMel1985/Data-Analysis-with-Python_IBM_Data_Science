@@ -4,8 +4,6 @@
 
 This repository contains a structured collection of Jupyter Notebooks developed while working through the IBM **Data Analysis with Python** learning path. The notebooks demonstrate the complete analytical workflow: importing datasets, cleaning and transforming raw data, exploring relationships between variables, building predictive regression models, and evaluating model performance.
 
-The main notebook, **House Sales in King County, USA**, is placed in the root folder as the central project file. The remaining notebooks are organised inside the `Jupyter Notebooks` folder as supporting labs, review notebooks, and practice exercises.
-
 <h1 align="center"><i>Notebooks Overview</i></h1>
 
 * [**House Sales in King County, USA**](House_Sales_in_King_Count_USA.ipynb)
