@@ -6,25 +6,6 @@ This repository contains a structured collection of Jupyter Notebooks developed 
 
 The main notebook, **House Sales in King County, USA**, is placed in the root folder as the central project file. The remaining notebooks are organised inside the `Jupyter Notebooks` folder as supporting labs, review notebooks, and practice exercises.
 
-<h1 align="center"><i>Repository Structure</i></h1>
-
-```text
-.
-├── House_Sales_in_King_Count_USA.ipynb
-├── README.md
-└── Jupyter Notebooks/
-    ├── DA0101EN-Review-Introduction.ipynb
-    ├── DA0101EN-2-Review-Data-Wrangling.ipynb
-    ├── DA0101EN-4-Review-Model-Development.ipynb
-    ├── Exploratory_data_analysis_cars.ipynb
-    ├── Model_Evaluation_and_Refinement_cars.ipynb
-    ├── Practice_data_loading.ipynb
-    ├── practice_data_wrangling.ipynb
-    ├── parctice_Exploratory_data_analysis.ipynb
-    ├── practice_model_development_laptops.ipynb
-    └── practice_model_evaluation.ipynb
-```
-
 <h1 align="center"><i>Notebooks Overview</i></h1>
 
 * [**House Sales in King County, USA**](House_Sales_in_King_Count_USA.ipynb)
@@ -283,6 +264,12 @@ and selects the value that produces the best validation performance. When combin
 
 <h1 align="center"><i>Technologies Used</i></h1>
 
+
+<table align="center">
+<tr>
+<td>
+<i>
+
 * Python
 * Jupyter Notebook / JupyterLab
 * pandas
@@ -291,6 +278,17 @@ and selects the value that produces the best validation performance. When combin
 * Seaborn
 * SciPy
 * scikit-learn
+
+</i>
+</td>
+</tr>
+</table>
+
+<h1 align="center"><i>Overall Summary</i></h1>
+
+Together, these notebooks provide a practical introduction to the full data analysis workflow in Python. They begin with the fundamentals of loading, inspecting, cleaning, and preparing datasets, then progress towards exploratory data analysis, statistical reasoning, model development, and predictive evaluation. Through real-world case studies on automobiles, laptops, and house sales, the repository demonstrates how pandas, NumPy, Matplotlib, Seaborn, SciPy, and scikit-learn can be used to transform raw data into meaningful insights and data-driven predictions.
+
+The labs are especially useful for students who want to strengthen their understanding of applied data analysis, from data wrangling and visual exploration to regression modelling, model refinement, and performance evaluation.
 
 # Author
 # ***[Matteo Meloni](https://www.linkedin.com/in/matteo-meloni-40a357154/)***
